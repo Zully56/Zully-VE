@@ -1,10 +1,127 @@
 <!DOCTYPE html>
-<html> 
+<html lang="en">
+
 <head>
-<title>Teste</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
-<body> 
-    <h1> Titulo</h1>
-    <p> paragrafo</p>
+
+<body>
+    <h> Formulario </h>
+    <hr>
+    <form>
+        <label for="pnome"> Primeiro Nome </label> <br>
+        <input type="text" id=" pnome" name=" pnome"> <br>
+        <label for="sobrenome"> Sobrenome </label> <br>
+        <input type="text" id="sobrenome" name="sobrenome">
+
+        <hr>
+        <h3> Sexo </h3>
+        <input type="radio" id="V" name="Sexo" value="Varon">
+        <label for="V"> Varon</label><br>
+        <input type="radio" id="M" name="Sexo" value="Mujer">
+        <label for="M"> Mujer</label>
+
+        <hr>
+        <h3> Comida Favorita de Peru </h3>
+        <input type="checkbox" id="De Peru" name="Comida 1" value=" Lomo Saltado">
+        <label for="Comida 1"> Lomo Saltado</label><br>
+        <input type="checkbox" id-="De Peru" name="Comida 2" value=" Arroz Chaufa">
+        <label for="Comida 2"> Arroz Chaufa</label><br>
+        <input type="checkbox" id=" De Peru" name="Comida 3" value=" Ceviche">
+        <label for="Comida 3"> Ceviche</label>
+
+        <hr>
+        <input type="button" onclick="alert('Holis')" value="Click aqui!!">
+
+        <hr>
+        <label for="color"> Escoga un color</label>
+        <input type="color" id="color" name="color">
+
+        <hr>
+
+        <label for="Fecha especial"> Fecha de tu nacimiento</label>
+        <input type="date" id="fecha" name="Fecha especial">
+
+        <hr>
+
+        <label for="datahora"> Dia y hora </label>
+        <input type="datetime-local" id="datahora" name="datahora">
+
+        <hr>
+
+        <label for="mesano"> Mes y ano</label>
+        <input type="month" id="mes_ano" name="mes_ano">
+
+        <hr>
+
+        <label for="email"> Email</label>
+        <input type="email" id="email" name="email">
+
+        <hr>
+
+        <input type="image"
+            src="https://c0.klipartz.com/pngpicture/647/768/gratis-png-boton-de-iconos-de-la-computadora-icono-de-ayuda.png"
+            alt="si soy" width="90" height="90">
+
+        <hr>
+
+        <label for="arquivos">Seleccione un archivo</label>
+        <input type="file" id="arquivos" name="arquivos">
+
+        <hr>
+
+        <label for="numero">Escoja un valor entre 1 y 5</label>
+        <input type="number" id="numero" name="numero" min="1" max="5">
+
+        <hr>
+
+        <label for="paises"> Elige un pais:</label>
+        <select id="pais" name="pais">
+            <option value="siu"></option>
+            <option value="Argentina">Argentina</option>
+            <option value="Peru"> Peru</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Mexico"> Mexico</option>
+        </select>
+
+        <hr>
+
+        <label for="paises"> Elige un pais:</label>
+        <select id="pais" name="pais" size="3" multiple>
+            <option value="siu"></option>
+            <option value="Argentina">Argentina</option>
+            <option value="Peru"> Peru</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Mexico"> Mexico</option>
+        </select>
+
+        <hr>
+        <h3> Reclame aqui</h3>
+        <fieldset>
+            <legend>Escriba aqui su mensaje</legend>
+            <textarea name="mensagem" rows="11" cols="50"> </textarea>
+        </fieldset>
+
+        <hr>
+
+        <label for="browser">Choose your browser from the list:</label>
+<input list="browsers" name="browser" id="browser">
+
+<datalist id="browsers">
+  <option value="Edge">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+
+
+
+
+
+    </form>
 </body>
+
 </html>
