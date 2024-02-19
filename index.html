@@ -5,19 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!----
+    <style>
+          h1{
+            color:rgb(98, 0, 255);
+            font-size:30px;
+          }  
+          form{
+            background-color: rgb(229, 174, 236);
+          } 
+
+    </style>
+    -->
+
 </head>
 
 <body>
-    <h> Formulario </h>
+    <h1 style="color: rgb(30, 210, 141); font-size: 300%;"> Formulario</h1>
+    <h1> Teste</h1>
+    <h1> Teste 2</h1>
     <hr>
-    <form>
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
         <label for="pnome"> Primeiro Nome </label> <br>
         <input type="text" id=" pnome" name=" pnome"> <br>
         <label for="sobrenome"> Sobrenome </label> <br>
         <input type="text" id="sobrenome" name="sobrenome">
 
         <hr>
-        <h3> Sexo </h3>
+        <h3 style="background-color: cornflowerblue;">Sexo</h3>
         <input type="radio" id="V" name="Sexo" value="Varon">
         <label for="V"> Varon</label><br>
         <input type="radio" id="M" name="Sexo" value="Mujer">
@@ -107,15 +124,29 @@
         <hr>
 
         <label for="browser">Choose your browser from the list:</label>
-<input list="browsers" name="browser" id="browser">
+        <input list="browsers" name="browser" id="browser">
 
-<datalist id="browsers">
-  <option value="Edge">
-  <option value="Firefox">
-  <option value="Chrome">
-  <option value="Opera">
-  <option value="Safari">
-</datalist>
+        <datalist id="browsers">
+            <option value="Edge">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist><br>
+        0
+        <input type="range" id="a" name="a" value="50">
+        100 +
+        <input type="number" id="b" name="b" value="50">
+        =
+        <output name="x" for="a b"></output>
+
+        <hr> 
+
+        <video width="50%" controls>
+              <source src="Videos/Dominic Fike - Elliot’s Song _ (Elliot and Rue) (Euphoria) (Sub. Español - Inglés) (144p).mp4" type="video/mp4">
+               </video>
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/A1OqtIqzScI?si=VFjgvB96TO6oFJNN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        
 
 
 
