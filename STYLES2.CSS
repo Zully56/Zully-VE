@@ -9,10 +9,10 @@ a{
 header{
     display: flex;
     height: 50px;
-    background-color: white
+    background-color: white;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
     border-style: solid;
     border-width: 1px
 
@@ -20,7 +20,7 @@ header{
 }
 nav a{
     font-weight: 600;
-    padding-right: 55px;
+    padding-right: 221px;
     
 }
 
@@ -37,13 +37,16 @@ p{
     text-align: end;
     border-style: solid;
     border-width: 1px;
-    font-size: 30px;
+    font-size:30px;
+    right: 50px;
+    position: absolute;
 
   
 }
 h1{
     text-align: center;
     color: rgb(209, 108, 72);
+    font-size: 100px;
 
     
 }
