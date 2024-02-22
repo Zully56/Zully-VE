@@ -34,6 +34,16 @@ nav a{
 }
 p{
     font-family: 'Times New Roman', Times, serif;
+    text-align: end;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 30px;
+
+  
+}
+h1{
+    text-align: center;
+    color: rgb(209, 108, 72);
+
     
 }
-
