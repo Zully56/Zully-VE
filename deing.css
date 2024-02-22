@@ -20,7 +20,7 @@ header{
 }
 nav a{
     font-weight: 600;
-    padding-right: 221px;
+    padding-right: 195px;
     
 }
 
@@ -40,18 +40,17 @@ p{
     font-size:30px;
     right: 50px;
     position: absolute;
-
-  
 }
-h1{
+.imagen{
+    margin-top:25px ;
+    margin-left: 85px;
+    margin-bottom: 300px;
+    
+}
+p{
     text-align: center;
     color: rgb(209, 108, 72);
     font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.imagen{
-    margin-top:50px ;
-    margin-left: 25px;
-
-    
-}
